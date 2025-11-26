@@ -1,4 +1,4 @@
-from sympy import Eq,symbols,solve
+from sympy import Eq, symbols, solve
 
 ELEMENTS = [
     'H', 'He', 'Li', 'Be', 'B', 'C', 'N', 'O', 'F', 'Ne',
