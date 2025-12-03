@@ -38,3 +38,11 @@ def count_atoms_in_molecule(molecular_formula):
         atom_name, atom_count = split_at_number(atom)
         atom_counts[atom_name] = atom_counts.get(atom_name, 0) + atom_count
     return atom_counts
+
+def count_atoms_in_reaction(molecules_list):
+    """Takes a list of molecular formulas and returns a list of atom count dictionaries.  
+    Example: ['H2', 'O2'] → [{'H': 2}, {'O': 2}]"""
+    molecules_atoms_count = []
+    for molecule in molecules_list:
+        molecules_atoms_count.append(count_atoms_in_molecule(molecule))
+    return molecules_atoms_count
