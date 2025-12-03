@@ -1,4 +1,4 @@
-from string_utils import split_by_capitals, split_at_number, parse_chemical_reaction, count_atoms_in_molecule
+from string_utils import split_by_capitals, split_at_number, parse_chemical_reaction, count_atoms_in_molecule, count_atoms_in_reaction
 from equation_utils import ELEMENTS, generate_equation_for_element, build_equations, my_solve
 from sympy import solve as sympy_solve
 
