@@ -23,7 +23,7 @@ def split_at_number(formula):
         digits.append("1")
     return ''.join(letters), int(''.join(digits))
 
-
+# hi
 
 def parse_chemical_reaction(reaction_equation):
     """Takes a reaction equation (string) and returns reactants and products as lists.  
